@@ -1,0 +1,2 @@
+regime,gene,function,chrom,pos,ref,alt,first_day,last_day,first_freq,last_freq,diff,origin,p,q
+fluct,TEF1,membrane/transport,ref|NC_001148|,700420,INDEL,T,6,24,8.94,67.39,58.45,de novo (neither founder),8.18988738166429e-14,8.18988738166429e-13

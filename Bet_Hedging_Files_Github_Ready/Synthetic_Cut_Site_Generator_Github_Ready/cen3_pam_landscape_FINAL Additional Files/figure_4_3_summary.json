@@ -1,0 +1,59 @@
+{
+  "cen3": {
+    "start": 114385,
+    "end": 114501,
+    "elements": {
+      "CDEI": {
+        "start": 114385,
+        "end": 114392
+      },
+      "CDEII": {
+        "start": 114393,
+        "end": 114476,
+        "AT": 0.9285714285714286
+      },
+      "CDEIII": {
+        "start": 114477,
+        "end": 114501
+      }
+    }
+  },
+  "window": {
+    "lo": 113443,
+    "hi": 115443,
+    "n_sites": 104
+  },
+  "n_within_100bp": 10,
+  "n_usable_local": 0,
+  "element_pam_content": {
+    "CDEI": {
+      "n_pam": 0,
+      "n_cut": 0,
+      "at": 0.5,
+      "length": 8
+    },
+    "CDEII": {
+      "n_pam": 0,
+      "n_cut": 0,
+      "at": 0.9285714285714286,
+      "length": 84
+    },
+    "CDEIII": {
+      "n_pam": 1,
+      "n_cut": 1,
+      "at": 0.76,
+      "length": 25
+    }
+  },
+  "landing_pads": [
+    114375,
+    114511
+  ],
+  "thresholds": {
+    "hdr_distance_bp": 20,
+    "hdr_distance_permissive_bp": 50,
+    "doench_min": 0.5,
+    "doench_design": 0.98,
+    "cfd_max": 0.2
+  }
+}

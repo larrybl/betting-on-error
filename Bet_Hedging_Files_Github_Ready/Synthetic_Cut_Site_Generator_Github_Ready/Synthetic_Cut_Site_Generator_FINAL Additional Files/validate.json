@@ -1,0 +1,11 @@
+{
+ "guide": "GTAGCAAAAGAGCTGCACCG",
+ "n_tied": 72,
+ "max_cfd_fwd": 0.09694230623063167,
+ "worst_fwd": "CCAGCAGGAAAACAAAATCA",
+ "max_cfd_both": 0.15686274501641168,
+ "worst_both": "TCAGCAAAGAAGCAACAACA",
+ "context_min": 0.8961855474389985,
+ "context_median": 0.9819666247645257,
+ "context_max": 0.9929804022352025
+}

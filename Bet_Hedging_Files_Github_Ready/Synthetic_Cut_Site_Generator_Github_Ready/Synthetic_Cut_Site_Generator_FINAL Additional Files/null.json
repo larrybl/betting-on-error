@@ -1,0 +1,12 @@
+{
+ "fwd": {
+  "median": 0.23939949549152767,
+  "pct_clearing": 30.2,
+  "installed_percentile": 1.0999999999999999
+ },
+ "both": {
+  "median": 0.27303878934299763,
+  "pct_clearing": 18.4,
+  "installed_percentile": 5.2
+ }
+}

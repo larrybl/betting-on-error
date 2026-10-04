@@ -1,0 +1,4 @@
+batch,n_samples,samples,n_competition_samples,includes_wt_founder,chr3_reference_ratio_min,chr3_reference_ratio_median,chr3_reference_ratio_max,n_below_wt_reference,other_chromosome_wt_ratio_median_excluding_wt_self,batch_correction_applied,interpretation
+run1,7,a1;a10;a20;b1;d1;d10;d20,7,False,0.7224380703007958,0.8204840490971532,1.2348109648785064,5,0.9856683514223601,False,Descriptive only; sample composition and run effects are not separated.
+run2,1,b5,1,False,0.8433875723085513,0.8433875723085513,0.8433875723085513,1,0.9934266094337125,False,Descriptive only; sample composition and run effects are not separated.
+run3,7,1635;B4-lineage-D10;D4-lineage-D1;D4-lineage-D10;D4-lineage-20;1638;1667-1635,4,True,0.8281120291836177,1.0,1.7140273927219405,3,0.998913069421792,False,Descriptive only; sample composition and run effects are not separated.

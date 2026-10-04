@@ -1,0 +1,56 @@
+{
+ "CDEI": {
+  "len": 8,
+  "at": 50.0,
+  "ngg_fwd": 0,
+  "ngg_rev": 0,
+  "gg_cc": 0,
+  "bp_per_site": null
+ },
+ "CDEII": {
+  "len": 84,
+  "at": 92.85714285714286,
+  "ngg_fwd": 0,
+  "ngg_rev": 0,
+  "gg_cc": 0,
+  "bp_per_site": null
+ },
+ "CDEIII": {
+  "len": 25,
+  "at": 76.0,
+  "ngg_fwd": 0,
+  "ngg_rev": 1,
+  "gg_cc": 1,
+  "bp_per_site": 50.0
+ },
+ "CEN3 (whole)": {
+  "len": 117,
+  "at": 86.32478632478633,
+  "ngg_fwd": 0,
+  "ngg_rev": 1,
+  "gg_cc": 1,
+  "bp_per_site": 234.0
+ },
+ "flanks (2x1000)": {
+  "len": 2000,
+  "at": 67.35,
+  "ngg_fwd": 48,
+  "ngg_rev": 59,
+  "gg_cc": 92,
+  "bp_per_site": 37.38317757009346
+ },
+ "genome": {
+  "len": 12162335,
+  "at": 61.848600618220104,
+  "ngg_fwd": 470835,
+  "ngg_rev": 473962,
+  "gg_cc": 805559,
+  "bp_per_site": 25.74592213988825
+ },
+ "_cdeIII_ccg_pos": 13,
+ "_sequences": {
+  "CDEI": "GTCACATG",
+  "CDEII": "ATGATATTTGATTTTATTATATTTTTAAAAAAAGTAAAAAATAAAAAGTAGTTTATTTTTAAAAAATAAAATTTAAAATATTAG",
+  "CDEIII": "TGTATTTGATTTCCGAAAGTTAAAA"
+ }
+}

@@ -1,0 +1,4 @@
+formulation,temperature_effect,reverse_transition,k,RSS,R2,RMSE,AIC,BIC,delta_AIC,delta_BIC
+30 C rates only,None; independently measured 30 C rates used at both temperatures,Same measured rate as the forward transition,8,0.42547626172563047,0.884883733417015,0.08090604824073894,-310.88067045072205,-293.48557229155693,4.450488025254231,1.0356499891929616
+Shared 11.5-fold heat multiplier (final model),Every measured 30 C rate multiplied by the fixed factor 11.5 at 39 C,Same temperature-specific rate as the forward transition,8,0.41875083642553285,0.8867033551477079,0.08026406767908548,-311.916320439915,-294.5212222807499,3.414838036061269,0.0
+Fitted reverse rates,No heat multiplier in this comparison formulation,Separate WT and edited reverse rates fitted from competition data,10,0.3736059563121863,0.8989176912258419,0.07581414078695613,-315.3311584759763,-293.58728577701993,0.0,0.9339365037299672

@@ -1,0 +1,27 @@
+formulation,parameter,value,fitted
+30 C rates only,w_WTan30,0.8407584000386169,True
+30 C rates only,w_Edeu30,0.9752817565363414,True
+30 C rates only,w_Edan30,0.8773709442803356,True
+30 C rates only,w_WTan39,2.7027251819867897,True
+30 C rates only,w_Edeu39,1.0278226183724073,True
+30 C rates only,w_Edan39,2.1154310157063327,True
+30 C rates only,beta,0.9516089617044252,True
+30 C rates only,t_half,1.1767370362701224,True
+Shared 11.5-fold heat multiplier (final model),w_WTan30,0.8537692103263034,True
+Shared 11.5-fold heat multiplier (final model),w_Edeu30,0.9749991577343947,True
+Shared 11.5-fold heat multiplier (final model),w_Edan30,0.890565640020274,True
+Shared 11.5-fold heat multiplier (final model),w_WTan39,2.4241158713574715,True
+Shared 11.5-fold heat multiplier (final model),w_Edeu39,1.0284135356229582,True
+Shared 11.5-fold heat multiplier (final model),w_Edan39,1.911623056100495,True
+Shared 11.5-fold heat multiplier (final model),beta,0.9443898748271963,True
+Shared 11.5-fold heat multiplier (final model),t_half,1.05783220399597,True
+Fitted reverse rates,w_WTan30,0.8296950442780021,True
+Fitted reverse rates,w_Edeu30,0.9749025095127378,True
+Fitted reverse rates,w_Edan30,0.8708993955085252,True
+Fitted reverse rates,w_WTan39,2.8670603407505486,True
+Fitted reverse rates,w_Edeu39,1.0284367009333841,True
+Fitted reverse rates,w_Edan39,2.222874968636893,True
+Fitted reverse rates,rho_W,0.0019999999999999996,True
+Fitted reverse rates,rho_E,0.007638882932517569,True
+Fitted reverse rates,beta,0.9590111742614565,True
+Fitted reverse rates,t_half,1.401863637154956,True

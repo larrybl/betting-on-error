@@ -1,0 +1,17 @@
+sample,regime,day,phase,point_role,source_reused_across_regimes,batch,chr3_wt_referenced_window_ratio,chr3_additively_lifted_copy_number_index
+1667-1635,30C,0,B,shared_day0_anchor,True,run3,1.041105296995669,1.3186672266948731
+a1,30C,6,C,competition_measurement,False,run1,0.7295603753678288,1.007122305067033
+a10,30C,12,C,competition_measurement,False,run1,0.8204840490971532,1.0980459787963575
+a20,30C,24,C,competition_measurement,False,run1,0.837710378751457,1.1152723084506613
+1667-1635,39C,0,B,shared_day0_anchor,True,run3,1.041105296995669,1.3186672266948731
+b1,39C,6,H,competition_measurement,False,run1,1.2348109648785064,1.5123728945777106
+b5,39C,12,H,competition_measurement,False,run2,0.8433875723085513,1.1209495020077556
+B4-lineage-D10,39C,24,H,competition_measurement,False,run3,0.8281120291836177,1.105673958882822
+1667-1635,fluct,0,B,shared_day0_anchor,True,run3,1.041105296995669,1.3186672266948731
+d1,fluct,6,H,competition_measurement,False,run1,1.1907296338646223,1.4682915635638265
+d10,fluct,12,C,competition_measurement,False,run1,0.755989587319184,1.0335515170183882
+d20,fluct,24,C,competition_measurement,False,run1,0.7224380703007958,1.0
+1667-1635,fluct2,0,B,shared_day0_anchor,True,run3,1.041105296995669,1.3186672266948731
+D4-lineage-D1,fluct2,6,H,competition_measurement,False,run3,1.2910995669528016,1.5686614966520058
+D4-lineage-D10,fluct2,12,C,competition_measurement,False,run3,0.8506973171509178,1.128259246850122
+D4-lineage-20,fluct2,24,C,competition_measurement,False,run3,0.9730957923946664,1.2506577220938706

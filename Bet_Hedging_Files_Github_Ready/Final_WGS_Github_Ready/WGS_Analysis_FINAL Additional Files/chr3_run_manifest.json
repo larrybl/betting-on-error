@@ -1,0 +1,193 @@
+{
+  "script_version": "V17_fig6_2_legend_match_no_compatibility_copy",
+  "created_utc": "2026-10-03T21:45:27.564774+00:00",
+  "source_path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL.py",
+  "source_sha256": "e3f8bba8559d8d5826c7a22c22209a886ee3ed1ffe48ba07607fa28eb8615200",
+  "samtools_version": "samtools 1.23.1",
+  "method": "10kb_wt_referenced_windows",
+  "plotted_value_field": "chr3_additively_lifted_copy_number_index",
+  "measurement": "Chromosome III abundance index linearly rescaled so the minimum plotted raw ratio equals 1.0",
+  "raw_relative_depth_formula": "R = median_w[(sample_window_depth/sample_baseline)/(WT_window_depth/WT_baseline)]",
+  "scaling_formula": "index = R + max(0, 1 - min(R across plotted competition samples + shared day-zero mixture))",
+  "raw_minimum_ratio": 0.7224380703007958,
+  "additive_offset": 0.27756192969920424,
+  "baseline": "Length-weighted mean depth of nuclear chromosomes excluding III and XII",
+  "wt_reference_sample": "1635",
+  "wt_reference_batch": "run3",
+  "window_length_bp": 10000,
+  "chromosome_III_length_bp": 316620,
+  "n_windows": 32,
+  "minimum_mapping_quality": 60,
+  "excluded_read_flags": "0xF04",
+  "coverage_arguments": [
+    "coverage",
+    "-q",
+    "60",
+    "--ff",
+    "0xF04"
+  ],
+  "depth_arguments": [
+    "depth",
+    "-aa",
+    "-Q",
+    "60",
+    "-G",
+    "0xF04",
+    "-r",
+    "ref|NC_001135|"
+  ],
+  "batch_correction_applied": false,
+  "batch_labels_source": "SAMPLE_BATCH configuration; not re-inferred",
+  "floor_rescaling_applied": false,
+  "additive_lift_applied": true,
+  "uncertainty": "Window quantiles are descriptive spread, not confidence intervals or biological replicates",
+  "shared_day0": {
+    "source": "1667-1635",
+    "used_for_all_regimes": true,
+    "independent_samples": 1,
+    "note": "Shared anchor retained from source; not a separate baseline for each lineage"
+  },
+  "compatibility_aliases": {
+    "chr3_copy_ratio": "chr3_additively_lifted_copy_number_index",
+    "copy_chrIII": "chr3_additively_lifted_copy_number_index"
+  },
+  "csv_note": "Legacy per-chromosome ratios are exported separately, with legacy_depth_ratio_ prefixes",
+  "n_competition_samples": 12,
+  "inputs": [
+    {
+      "sample": "a1",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/a1_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 329572357,
+      "modified_time_ns": 1780834711790494441,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "a10",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/a10_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 304270868,
+      "modified_time_ns": 1780834840267491221,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "a20",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/a20_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 491193028,
+      "modified_time_ns": 1780846755192244053,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "b1",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/b1_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 367019565,
+      "modified_time_ns": 1780846878453387260,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "b5",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/b5_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 378291287,
+      "modified_time_ns": 1780847060859859467,
+      "configured_batch": "run2",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "B4-lineage-D10",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/B4-lineage-D10_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 453152705,
+      "modified_time_ns": 1784369284552636981,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "d1",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/d1_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 630016092,
+      "modified_time_ns": 1780847707003502965,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "d10",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/d10_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 502621101,
+      "modified_time_ns": 1780847924701865792,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "d20",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/d20_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 606090288,
+      "modified_time_ns": 1780848440341573238,
+      "configured_batch": "run1",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "D4-lineage-D1",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/D4-lineage-D1_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 540989780,
+      "modified_time_ns": 1784369959309912443,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "D4-lineage-D10",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/D4-lineage-D10_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 479926223,
+      "modified_time_ns": 1784370138413964272,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "D4-lineage-20",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/D4-lineage-20_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 556372875,
+      "modified_time_ns": 1784369473289490104,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "1635",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/1635_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 476910837,
+      "modified_time_ns": 1784365782992501140,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "1638",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/1638_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 433339634,
+      "modified_time_ns": 1784365934208490491,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    },
+    {
+      "sample": "1667-1635",
+      "path": "/Users/macbook/Documents/PycharmProjects/BetHedging/Bet_Hedging_Files_Github_Ready/Final_WGS_Github_Ready/WGS_Analysis_FINAL Additional Files/BAM Files/1667-1635_V2.new.sorted.bam",
+      "exists": true,
+      "size_bytes": 553620268,
+      "modified_time_ns": 1784368456169977546,
+      "configured_batch": "run3",
+      "used_for_chr3": true
+    }
+  ]
+}
