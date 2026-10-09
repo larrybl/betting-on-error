@@ -1,0 +1,75 @@
+==============================================================================
+BET-HEDGING COMPETITION MODEL: CURRENT THESIS RUN
+==============================================================================
+Input directory: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Additional Files
+Figure directory: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures
+
+FITTED PARAMETERS
+  w_WTan30     0.85489276
+  w_Edeu30     0.97579443
+  w_Edan30     0.89121187
+  w_WTan39     2.4154054
+  w_Edeu39     1.0267571
+  w_Edan39     1.9084053
+  beta         0.94477929
+  t_half       1.0617175
+  fixed MU_W          5.654e-07
+  fixed MU_E          1.996e-05
+  fixed MU_CDEII      2.825e-06
+  heat multiplier     11.5
+  generations/day     10
+
+FORWARD CALIBRATION PARAMETERS
+  EC50 fraction = 0.999
+  Hill slope    = 1.1868087
+
+GLOBAL FIT
+  R2   = 0.887668
+  RMSE = 0.079922
+  AIC  = -312.472
+  BIC  = -295.077
+
+PER-REGIME FIT
+  regime           RMSE         R2
+  Const30        0.0575      0.895
+  Cycle7D        0.0783      0.874
+  Cycle5D        0.1184     -1.763
+  Cycle3D        0.0713      0.888
+  Const39        0.0583      0.956
+
+LEAVE-ONE-REGIME-OUT
+  held out         RMSE         R2
+  Const30        0.0610      0.881
+  Cycle7D        0.1722      0.391
+  Cycle5D        0.3121    -18.199
+  Cycle3D        0.1208      0.679
+  Const39        0.7033     -5.350
+
+HELD-OUT CDEII PLATE PREDICTION (NO REFIT)
+  regime           RMSE
+  Const30        0.0104
+  Cycle7D        0.0175
+  Cycle5D        0.0312
+  Cycle3D        0.0215
+  Const39        0.0165
+  overall R2   = 0.989626
+  overall RMSE = 0.020603
+
+CURRENT THESIS FIGURES
+  5.1: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_5.1_Agreement_Between_Reciprocal_kanMX_Marker_Orientations_in_Tube_and_Plate_Competitions.png
+  5.2: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_5.2_Competition_Between_CEN3-Edited_Strains_and_CEN3-WT_Across_Five_Environmental_Regimes_in_5_mL_Cultures.png
+  5.3: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_5.3_Calibration_of_Visual_G418-Resistance_Scores_Against_Known_Resistant-Cell_Proportions.png
+  5.4: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_5.4_Competition_Between_CEN3-Edited_Strains_and_CEN3-WT_Across_Five_Environmental_Regimes_in_96-Well_Plates.png
+  5.5: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_5.5_Divergence_of_Independent_Plate_Populations_Under_the_Intermediate_Switching_Regime.png
+  5.6: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_5.6_Chromosome-Loss_Rate_Determines_the_Probability_of_Persistence_Under_the_Intermediate_Switching_Regime.png
+  7.1: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.1_Four-State_Model_of_Competition_Between_CEN3-Edited_and_Wild-Type_Lineages.png
+  7.2: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.2_The_Four-State_Model_Reproduces_Competition_Trajectories_Across_Five_Environmental_Regimes.png
+  7.3: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.3_CEN3-cdeII_Delta_Competition_Dynamics_Predicted_by_the_Model_Fitted_to_CEN3-cdeI_II_Delta.png
+  7.4: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.4_Environmental_Context_Determines_the_Competitive_Effect_of_Chromosome_III_Mis-Segregation_Rate.png
+  7.5: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.5_Environmental_Switching_Frequency_Defines_the_Conditions_Under_Which_Elevated_Chromosome_Instability_Is_Advantageous.png
+  7.6: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.6_Model-Predicted_Recurrent_Pre-Heat_Chromosome-State_Fractions.png
+  7.7: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Figure_7.7_Pre-Heat_Chromosome-State_Separation_Predicts_the_Environmental_Window_of_Edited-Strain_Persistence.png
+  S1: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Supplementary_Figure_1_Recovery_of_the_Elevated_Chromosome_III_Heat_Advantage_Following_Growth_at_30C.png
+  S2: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Supplementary_Figure_2_Profile-Likelihood_Analysis_of_the_Eight_Fitted_Model_Parameters.png
+  S3: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Supplementary_Figure_3_Leave-One-Regime-Out_Prediction_Error_Across_Environmental_Schedules.png
+  S4: /Users/macbook/Documents/PycharmProjects/BetHedging/betting-on-error-main/Bet_Hedging_Files_Github_Ready/Competition_Assay_Matrix_Model_Github_Ready/Competition_Assay_Matrix_Model_FINAL Figures/Supplementary_Figure_4_Representative_Competition_Trajectories_Across_Edited-Lineage_Mis-Segregation_Rates.png

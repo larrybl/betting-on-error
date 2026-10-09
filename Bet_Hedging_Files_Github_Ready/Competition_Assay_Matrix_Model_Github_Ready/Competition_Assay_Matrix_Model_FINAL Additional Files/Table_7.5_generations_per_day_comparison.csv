@@ -1,0 +1,4 @@
+model,k,g_WT,g_Edit,R2,RMSE,RSS,AIC,BIC,simulation_method,delta_AIC,delta_BIC,interpretation_note
+Fixed 10 generations/day,8,10,10,0.88766794588084386,0.079921659168094294,0.41518565427176696,-312.47208998445302,-295.07699182528791,exact_matrix_power_v2,0,0,Primary exact 10-generation model; shared fitted parameters
+Shared fitted generations/day,9,8.0997911932244921,8.0997911932244921,0.88788712620000765,0.079843650232497301,0.414375551359209,-310.59904072828556,-291.02955529922485,exact_matrix_power_v2,1.8730492561674623,4.047436526063052,Exact matrix-power generation simulator; baseline identity verified
+Separate fitted generations/day,10,8.0982336739648755,8.5510687237377745,0.88737763577409967,0.080024866992946794,0.41625865692052461,-308.3043211755267,-286.56044847657034,exact_matrix_power_v2,4.1677688089263256,8.5165433487175619,Exact matrix-power generation simulator; baseline identity verified

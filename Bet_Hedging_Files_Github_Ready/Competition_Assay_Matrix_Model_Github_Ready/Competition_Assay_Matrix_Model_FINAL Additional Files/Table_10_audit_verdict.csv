@@ -1,0 +1,12 @@
+test,status,note
+Measured data: early high-μ advantage,robust,"D0-D8 AUC diff=+0.065, bootstrap 95% [+0.044,+0.084]"
+Spot calibration / monotone remapping,robust,worst monotone D0-D8 AUC diff=+0.000; calibration-bootstrap P(positive)=1.00
+Endpoint metric choice,robust,high μ - measured μ positive in 4/4 metrics
+Heat phase relative to sampling,robust,positive high-μ contrast in 7/7 phases
+Long-run geometric mean,robust,high-μ GM greater at 5/5 tested horizons
+Standing aneuploidy removal,robust,no-standing high-μ contrast=+0.807; retained 96.9% of baseline contrast
+Pre-heat reservoir mediation,robust,erasing lineage-state gap removes 55.1% of high-μ contrast
+Alternative fitted architectures,robust,positive contrast in 6/6 models with ΔAIC<10
+Well-bootstrap refits,robust,P(high-μ contrast >0)=1.00 across 24 refits
+Finite-population bottlenecks,robust,"N=30,000 median late contrast=+0.835"
+Independent idealised model,informative,fast switcher favoured in 53.0% of broad cost/benefit parameter sets

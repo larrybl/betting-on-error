@@ -1,0 +1,48 @@
+====================================================================================================
+EXACT FITTED-MODEL REFERENCE OUTPUT
+====================================================================================================
+These results use P_FIT directly. They do not overwrite fitted fitness values to build a conceptual scenario.
+Use this section when you want outputs tied most closely to the thesis model.
+
+EXPERIMENTALLY MEASURED CEN3-cdeI,IIΔ RATE ACROSS 3/5/7-DAY REGIMES
+---------------------------------------------------------------------
+Measured-rate model          period= 3  mu=1.996000e-05  endpoint= 0.00277  WT_pre= 0.71303  Edit_pre= 0.76258  Delta=+0.04954  heat_log=+0.49045  functional= +0.24298  state=Supply-saturated
+Measured-rate model          period= 5  mu=1.996000e-05  endpoint= 0.35987  WT_pre= 0.01537  Edit_pre= 0.29041  Delta=+0.27504  heat_log=+0.58663  functional= +1.61348  state=Bet-hedging-permissive
+Measured-rate model          period= 7  mu=1.996000e-05  endpoint= 0.04927  WT_pre= 0.00001  Edit_pre= 0.00275  Delta=+0.00275  heat_log=+0.61106  functional= +0.01678  state=Supply-limited
+
+HIGH-RATE SEVEN-DAY TEST POINTS
+-------------------------------
+Seven-day                    period= 7  mu=5.654000e-07  endpoint= 0.02677  WT_pre= 0.00001  Edit_pre= 0.00008  Delta=+0.00007  heat_log=+0.61106  functional= +0.00044  state=Supply-limited
+Seven-day                    period= 7  mu=2.825000e-06  endpoint= 0.02954  WT_pre= 0.00001  Edit_pre= 0.00039  Delta=+0.00038  heat_log=+0.61106  functional= +0.00234  state=Supply-limited
+Seven-day                    period= 7  mu=1.996000e-05  endpoint= 0.04927  WT_pre= 0.00001  Edit_pre= 0.00275  Delta=+0.00275  heat_log=+0.61106  functional= +0.01678  state=Supply-limited
+Seven-day                    period= 7  mu=1.000000e-04  endpoint= 0.11869  WT_pre= 0.00001  Edit_pre= 0.01368  Delta=+0.01367  heat_log=+0.61106  functional= +0.08353  state=Supply-limited
+Seven-day                    period= 7  mu=1.000000e-03  endpoint= 0.35256  WT_pre= 0.00001  Edit_pre= 0.08448  Delta=+0.08447  heat_log=+0.61106  functional= +0.51618  state=Supply-limited
+Seven-day                    period= 7  mu=1.000000e-02  endpoint= 0.88255  WT_pre= 0.00001  Edit_pre= 0.09009  Delta=+0.09009  heat_log=+0.61106  functional= +0.55048  state=Supply-limited
+Seven-day high-rate minus experimentally measured-rate endpoint contrast: +0.83329
+
+HIGH-RATE FIVE-DAY TEST POINTS
+------------------------------
+Five-day                     period= 5  mu=5.654000e-07  endpoint= 0.03589  WT_pre= 0.01537  Edit_pre= 0.03020  Delta=+0.01484  heat_log=+0.58663  functional= +0.08703  state=Supply-limited
+Five-day                     period= 5  mu=2.825000e-06  endpoint= 0.09445  WT_pre= 0.01537  Edit_pre= 0.11023  Delta=+0.09487  heat_log=+0.58663  functional= +0.55651  state=Bet-hedging-permissive
+Five-day                     period= 5  mu=1.996000e-05  endpoint= 0.35987  WT_pre= 0.01537  Edit_pre= 0.29041  Delta=+0.27504  heat_log=+0.58663  functional= +1.61348  state=Bet-hedging-permissive
+Five-day                     period= 5  mu=1.000000e-04  endpoint= 0.70153  WT_pre= 0.01537  Edit_pre= 0.44910  Delta=+0.43373  heat_log=+0.58663  functional= +2.54442  state=Bet-hedging-permissive
+Five-day                     period= 5  mu=1.000000e-03  endpoint= 0.95224  WT_pre= 0.01537  Edit_pre= 0.50575  Delta=+0.49038  heat_log=+0.58663  functional= +2.87675  state=Bet-hedging-permissive
+Five-day                     period= 5  mu=1.000000e-02  endpoint= 0.99178  WT_pre= 0.01537  Edit_pre= 0.22892  Delta=+0.21355  heat_log=+0.58663  functional= +1.25274  state=Bet-hedging-permissive
+Five-day high-rate minus experimentally measured-rate endpoint contrast: +0.63190
+
+PRIMING DEPENDENCE OF EXACT FITTED MODEL AT MEASURED μ
+-----------------------------------------------------
+Priming on                   period= 3  mu=1.996000e-05  endpoint= 0.00277  WT_pre= 0.71303  Edit_pre= 0.76258  Delta=+0.04954  heat_log=+0.49045  functional= +0.24298  state=Supply-saturated
+Priming on                   period= 5  mu=1.996000e-05  endpoint= 0.35987  WT_pre= 0.01537  Edit_pre= 0.29041  Delta=+0.27504  heat_log=+0.58663  functional= +1.61348  state=Bet-hedging-permissive
+Priming on                   period= 7  mu=1.996000e-05  endpoint= 0.04927  WT_pre= 0.00001  Edit_pre= 0.00275  Delta=+0.00275  heat_log=+0.61106  functional= +0.01678  state=Supply-limited
+Priming off                  period= 3  mu=1.996000e-05  endpoint= 0.00035  WT_pre= 0.76922  Edit_pre= 0.81619  Delta=+0.04697  heat_log=+0.61994  functional= +0.29118  state=Supply-saturated
+Priming off                  period= 5  mu=1.996000e-05  endpoint= 0.38338  WT_pre= 0.04484  Edit_pre= 0.36042  Delta=+0.31558  heat_log=+0.61994  functional= +1.95638  state=Bet-hedging-permissive
+Priming off                  period= 7  mu=1.996000e-05  endpoint= 0.05471  WT_pre= 0.00001  Edit_pre= 0.00311  Delta=+0.00310  heat_log=+0.61994  functional= +0.01924  state=Supply-limited
+
+INTERPRETATION GUARDRAILS
+-------------------------
+1. This file is the exact fitted-model reference, not the broader conceptual sweep.
+2. High-rate values are predictions outside the experimentally measured CEN3 allele range.
+3. Portfolio-state labels remain descriptive thresholds, not fitted biological constants.
+4. Functional score is a diagnostic: Edit-WT pre-heat difference multiplied by recurrent heat-selection strength.
+====================================================================================================
