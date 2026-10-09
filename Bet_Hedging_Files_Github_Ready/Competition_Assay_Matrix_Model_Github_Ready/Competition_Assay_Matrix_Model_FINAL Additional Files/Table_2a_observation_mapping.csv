@@ -1,9 +1,0 @@
-mapping,window,difference
-naive linear,D0-D4,0.06835937500000006
-naive linear,D0-D8,0.0654296875
-naive linear,D0-D12,0.022135416666666685
-naive linear,D0-D24,-0.0020616319444444198
-empirical inverse,D0-D4,0.011035156249999997
-empirical inverse,D0-D8,0.01134440104166666
-empirical inverse,D0-D12,0.006221788194444439
-empirical inverse,D0-D24,0.002578124999999999
